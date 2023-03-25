@@ -1,0 +1,352 @@
+						/* ---For All Pages--- */
+@import url('reset.css');
+						
+body {
+	text-align: center;
+}
+
+.main_div {
+	margin: 0 auto;
+	width: 900px;
+	text-align: left;
+	position: relative;
+}
+
+img {
+	max-width: 100%;
+}
+
+a.a-index{
+	text-decoration: none;
+	color: #000;
+}
+
+h1, h4{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.inline {
+	display: inline-block;
+}
+
+/* Logo */
+
+.logo {
+	background: url("../images/logo.png");
+	height: 145px;
+	width: 800px;
+	margin: auto;
+}
+
+/* Menu */
+
+.menu {
+	position: absolute;
+	left: -10px;
+	top: 175px;
+}
+
+.menu_list  li {
+	text-align: center;
+	font-size: 25px;
+	border-top: #000 2px dashed;
+	width: 128px;
+	list-style-type: none;
+	font-family: "Open Sans", helvetica, arial;
+}
+
+.menu_list a:last-child li{
+	border-bottom: #000 2px dashed;
+}
+
+.menu_list li:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+/* Social Buttons */
+.linkedin {
+	width: 40px;
+	height: 40px;
+	background: url("../images/linkedin.png") no-repeat;
+	position: absolute;
+	left: 775px;
+	top: 174px;
+}
+
+.facebook {
+	width: 40px;
+	height: 40px;
+	background: url("../images/facebook.png") no-repeat;
+	position: absolute;
+	left: 775px;
+	top: 214px;
+}
+
+.linkedin:hover {
+	background: url("../images/linkedin_hover.png") no-repeat;
+}
+
+.facebook:hover {
+	background: url("../images/facebook_hover.png") no-repeat;
+}
+
+/* Footer */
+
+.footer{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	background:#000;
+	opacity:0.9;
+	height:20px;
+	padding-bottom:5px;
+	z-index:6;
+}
+
+.footer p {
+	margin-top: 5px;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	color:#ddd;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size:13px;
+	padding: 10 10;
+	float: right;
+}
+
+/* Brands */
+
+.azawhistle {
+	width: 160px;
+	height: 55px;
+	background: url("../images/experience/azawhistle.png");
+}
+
+.ctrlcenter {
+	width: 160px;
+	height: 55px;
+	background: url("../images/experience/ctrlcenter.png");
+}
+
+.excessbuy {
+	width: 160px;
+	height: 55px;
+	background: url("../images/experience/excessbuy.png");
+}
+
+.genuineoemparts {
+	width: 160px;
+	height: 55px;
+	background: url("../images/experience/genuineoemparts.png") no-repeat;
+}
+
+.russianhouse {
+	width: 160px;
+	height: 55px;
+	background: url("../images/experience/russianhouse.png");
+}
+
+.miscellaneous 	{
+	width: 160px;
+	height: 55px;
+	background: url("../images/experience/miscellaneous.png");
+}
+
+						/* ---Home--- */
+						/* ---About--- */
+
+/* .main_about { */
+	/* position: absolute; */
+	/* left: 140px; */
+	/* top: 165px; */
+/* }											 */
+#div_photo {
+	position: absolute;
+	left: 140px;
+	top: 170px;
+}
+						
+#photo_about {
+	width:320px;
+    background:#ebebeb;
+    border:5px solid #fff;
+	-webkit-transform: rotate(-5deg); /* Chrome + Safari */
+	-moz-transform: rotate(-5deg); /* Firefox */
+	-o-transform: rotate(-5deg); /* Opera */
+	box-shadow: -1px 3px 10px -1px #000000;
+}
+
+#div_about {
+	position: absolute;
+	left: 470px;
+	top: 165px;
+}
+
+.p_header_about {
+	font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #444;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+	font-style: none;
+	width: 275px;
+	margin-left: 20px;
+}
+
+.p_about {
+	text-align:justify;
+	font-family: georgia, serif;
+	color:#000;
+	font-size:12px;
+	font-weight:normal;
+	line-height:150%;
+	width: 275px;
+	margin-left: 20px;
+}
+
+						/* ---Contacts--- */
+
+.main_contacts {
+	position: absolute;
+	left: 140px;
+	top: 200px;
+}
+						
+.main_contacts p {
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+    font-size: 14px;
+	letter-spacing: .1em;
+	line-height: 1.2em;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.main_contacts p span.add_info {
+	font-family: georgia, serif;
+	color:#000;
+	font-size:12px;
+	font-weight:normal;
+	line-height: 1.2em;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+}
+
+.main_contacts img {
+	margin-top: -35%;
+	margin-left: 95%;
+	}
+	
+	
+						/* ---Experience--- */
+
+#t_experience {
+	position: absolute;
+	width: 644;
+	height: 484;
+	top: 160px;
+	left: 200px;
+}
+
+#t_experience ul {
+	list-style: square;
+}
+
+#t_experience .genuineoemparts {
+	margin: auto;
+}
+
+.p_header_exp {
+	padding-left: 30px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:32px;
+	margin-top: 5px; margin-bottom: 0px;
+    font-weight: normal;
+    color: #444;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.p_text_exp {
+	font-family: "Lucida Grande", Tahoma;
+	font-size: 18px;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #666666;
+    margin-top: 10px;
+	margin-left: 35px;
+	letter-spacing: 0.1em;
+	line-height:130%;
+}
+
+ul.p_text_exp a, ul.p_text_exp a:visited {
+	text-decoration: none;
+	color: #666;
+}
+
+ul.p_text_exp a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+
+						/* ---Gallery--- */
+						
+.div_gallery {
+	width: 644px;
+	height: 484px;
+	position: absolute;
+	top: 350px;
+	left: 10px;
+}
+
+#gallery_header_text {
+	width: 610px;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+    font-size: 15px;
+	letter-spacing: .1em;
+	line-height: 1.3em;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	position: absolute;
+	top: 180px;
+	left: 150px;
+	
+}
+
+.gallery1 {
+	display: inline-block;
+	position: relative;
+	left: 180px;
+	top: -60px;
+} 
+
+.gallery2 {
+	display: inline-block;
+	position: relative;
+	left: 180px;
+	top: -25px;
+} 
+
+/* IE9 and IE10 rule sets go here */ 
+@media screen and (min-width:0\0) {  
+	img {
+		width: 100%;
+		}
+
+	#photo_about {
+	width: 320px;
+	
+	}
+	.p_header_about, .p_about {
+	margin-left: 15px;
+	}
+} 
+
+/* Any FireFox rule sets go here */ 
+@-moz-document url-prefix() {
+	#photo_about {
+	width: 320px;
+	}
+}
